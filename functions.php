@@ -5,5 +5,3 @@ function my_theme_styles() {
 	// не обязательно, правильная родительская тема подключит его сама.
 	//wp_enqueue_style('child-theme-css', get_stylesheet_directory_uri() .'/style.css', array('parent-theme-css') );
 }
-
-//test
