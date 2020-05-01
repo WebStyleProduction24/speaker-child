@@ -9,6 +9,7 @@ Version: 0.1
 */
 
 /* импортируем стили родительской темы */
+@import url("../speaker/style.css");
 
 .custom-number .elementor-counter-title {
     line-height: 1.5 !important;
