@@ -7,4 +7,238 @@ Author: WSP24
 Author URI: https://wsp24.ru/
 Version: 0.1
 */
-/* test */
+/* импортируем стили родительской темы */
+@import url("../speaker/style.css");
+
+.custom-number .elementor-counter-title {
+    line-height: 1.5 !important;
+    font-size: 15px !important;
+}
+
+.elementor-counter-number {
+    font-size: 33px;
+}
+
+.elementor-counter-title {
+    padding-top: 20px;
+}
+
+#toTop::before {
+    background: #298FFC;
+}
+
+#toTop::before:hover {
+    color: #1e1d21 !important;
+    background: #1111B2 !important;
+}
+
+.elementor .tm-testi--default-invert .tm-testi-slider__next.swiper-button-next::before {
+    color: #ffffff;
+    background-color: #298FFC !important;
+}
+
+.elementor .swiper-button-next:hover {
+    color: #1e1d21 !important;
+    background-color: #0000B4 !important;
+}
+
+.elementor .tm-testi--default-invert .tm-testi-slider__prev.swiper-button-prev::before {
+    color: #ffffff;
+    background-color: #298FFC !important;
+}
+
+.elementor .tm-testi--default-invert .tm-testi-slider__prev.swiper-button-prev::before:hover {
+    color: #1e1d21 !important;
+    background-color: #298FFC !important;
+}
+
+.tm-testi__item-body:before,
+.tm-testi--speech-bubble .tm-testi__item-body p:before {
+    color: #298FFC !important;
+}
+
+.invert .contact-block.contact-block--header .contact-block__icon {
+    color: #298FFC;
+}
+
+.site-logo__link {
+    color: #298FFC !important;
+}
+
+.site-logo__link:hover {
+    color: #fff !important;
+}
+
+.main-navigation.main-menu-style-2 .menu>li>a:hover {
+    color: #ffffff;
+    background: #298FFC !important;
+}
+
+.main-navigation .sub-menu a:hover,
+.main-navigation .sub-menu li.menu-hover>a {
+    color: #298FFC !important;
+}
+
+.main-navigation.main-menu-style-2 .menu>li>a:hover,
+.main-navigation.main-menu-style-2 .menu>li.menu-hover>a,
+.main-navigation.main-menu-style-2 .menu>li.current_page_item>a,
+.main-navigation.main-menu-style-2 .menu>li.current_page_ancestor>a,
+.main-navigation.main-menu-style-2 .menu>li.current-menu-ancestor>a {
+    color: #ffffff;
+    background-color: #298FFC !important;
+}
+
+.invert .contact-block.contact-block--header .contact-block__text a:hover,
+.invert .contact-block.contact-block--header a[href^="tel:"]:hover {
+    color: #298FFC !important;
+}
+
+.site-footer .share-btns__link:hover,
+.site-footer .social-list a:hover {
+    color: #298FFC !important;
+}
+
+.invert .social-list a:hover {
+    color: #298FFC !important;
+}
+
+.invert .contact-block.contact-block--header .contact-block__icon {
+    margin-top: -4px;
+}
+
+.elementor-widget-heading .elementor-heading-title>a {
+    color: #000;
+}
+
+.tm-testi-slider .tm-testi__item-body {
+    padding-top: 20px !important;
+}
+
+.tm-testi__item-body,
+.tm-testi__item-meta-content,
+.tm-testi--default-2 .tm-testi__title-sup,
+.tm-testi--default-2 .tm-testi__item-name,
+.tm-testi--default-4 .tm-testi__title-sup,
+.tm-testi--default-4 .tm-testi__item-name {
+    font-size: 12px;
+    color: #2B2B2B;
+}
+
+.wpcf7 .wpcf7-form-control-wrap input {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.wpcf7-submit,
+.post-password-form label+input {
+    color: #ffffff;
+    background-color: #298FFC !important;
+}
+
+.wpcf7-submit,
+.post-password-form label+input:hover {
+    color: #ffffff;
+    background-color: #1572D5;
+}
+
+.elementor-jet-pricing-table .pricing-table__price {
+    min-height: 80px;
+}
+
+.elementor-jet-pricing-table .pricing-table__subtitle {
+    margin-top: 0px;
+}
+
+.elementor-278 .elementor-element.elementor-element-4d09def .pricing-table__price-val {
+    line-height: 0px;
+}
+
+.form-feedback-calculate {
+    border: 2px solid #F0F0F0;
+    padding: 10px;
+}
+
+.elementor-278 .elementor-element.elementor-element-4d09def .pricing-feature.item-included {
+    color: #2B2B2B;
+    line-height: 2.72em;
+}
+
+.tm-testi__item-body {
+    position: relative;
+    margin: auto;
+    padding: 20px 15px;
+    min-height: 252px;
+    margin-bottom: 23px;
+    border-radius: 0px;
+    max-width: 87%;
+}
+
+.tm-testi-slider .tm-testi__item-body {
+    padding-top: 20px !important;
+    width: 280px;
+}
+
+.tm-testi__wrap:hover .swiper-button-next.tm-testi-slider__next {
+    right: 0px;
+}
+
+.tm-testi__wrap:hover .swiper-button-prev.tm-testi-slider__prev {
+    left: 0px;
+}
+
+.elementor .tm-testi--default-invert .tm-testi__item .tm-testi__inner cite .tm-testi__item-name {
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    padding-left: 55px;
+}
+
+.elementor .swiper-button-next:before {
+    content: '\e904';
+    color: white !important;
+}
+
+.swiper-button-prev:before {
+    content: "\e903" !important;
+    color: white !important;
+}
+
+@media (max-width: 384px) {
+    .tm-testi-slider .tm-testi__item-body {
+        width: 71%;
+    }
+}
+
+@media (max-width: 600px) {
+    .elementor-278 .elementor-element.elementor-element-b8j0je0 {
+        margin-top: 140px;
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact-block.contact-block--header a[href^="tel:"] {
+        font-size: 1em;
+        line-height: 1.2;
+    }
+
+    .elementor-278 .elementor-element.elementor-element-b8j0je0 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1198px) {
+    .tm-testi-slider .tm-testi__item-body {
+        padding-top: 20px !important;
+        width: 62%;
+    }
+
+    .tm-testi__item blockquote cite {
+        display: block;
+        margin: 0 auto;
+        width: 62%;
+    }
+
+    .elementor .tm-testi--default-invert .tm-testi__item .tm-testi__inner cite .tm-testi__item-name {
+        padding-left: 0;
+    }
+}
