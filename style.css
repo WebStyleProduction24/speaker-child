@@ -226,6 +226,17 @@ Version: 0.1
     }
 }
 
+@media (min-width: 900px) {
+    .header-components__grid-elements .contact-block__inner .contact-block__item {         
+        -webkit-flex-basis: inherit;
+        -ms-flex-preferred-size: inherit;
+        flex-basis: inherit;       
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+    }
+}
+
 @media (max-width: 1198px) {
     .tm-testi-slider .tm-testi__item-body {
         padding-top: 20px !important;
