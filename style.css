@@ -1,11 +1,8 @@
 /*
-Theme Name: Дочерняя тема Speaker
+Theme Name: Дочерняя тема speaker-child
 Template: speaker
-Theme URI: https://wsp24.ru/
-Description: Дочерняя тема для темы Speaker от Web Style Production 24
-Author: WSP24
-Author URI: https://wsp24.ru/
-Version: 0.1
+Author: Web Style Production 24
+Author URI: https://wsp24.ru
 */
 
 /* импортируем стили родительской темы */
@@ -25,7 +22,7 @@ Version: 0.1
 }
 
 #toTop::before {
-    background: #298FFC;
+    background: #00c03f;
 }
 
 #toTop::before:hover {
@@ -35,7 +32,7 @@ Version: 0.1
 
 .elementor .tm-testi--default-invert .tm-testi-slider__next.swiper-button-next::before {
     color: #ffffff;
-    background-color: #298FFC !important;
+    background-color: #00c03f !important;
 }
 
 .elementor .swiper-button-next:hover {
@@ -45,7 +42,7 @@ Version: 0.1
 
 .elementor .tm-testi--default-invert .tm-testi-slider__prev.swiper-button-prev::before {
     color: #ffffff;
-    background-color: #298FFC !important;
+    background-color: #00c03f !important;
 }
 
 .elementor .tm-testi--default-invert .tm-testi-slider__prev.swiper-button-prev::before:hover {
@@ -55,15 +52,15 @@ Version: 0.1
 
 .tm-testi__item-body:before,
 .tm-testi--speech-bubble .tm-testi__item-body p:before {
-    color: #298FFC !important;
+    color: #00c03f !important;
 }
 
 .invert .contact-block.contact-block--header .contact-block__icon {
-    color: #298FFC;
+    color: #00c03f;
 }
 
 .site-logo__link {
-    color: #298FFC !important;
+    color: #00c03f !important;
 }
 
 .site-logo__link:hover {
@@ -72,12 +69,12 @@ Version: 0.1
 
 .main-navigation.main-menu-style-2 .menu>li>a:hover {
     color: #ffffff;
-    background: #298FFC !important;
+    background: #00c03f !important;
 }
 
 .main-navigation .sub-menu a:hover,
 .main-navigation .sub-menu li.menu-hover>a {
-    color: #298FFC !important;
+    color: #00c03f !important;
 }
 
 .main-navigation.main-menu-style-2 .menu>li>a:hover,
@@ -86,21 +83,21 @@ Version: 0.1
 .main-navigation.main-menu-style-2 .menu>li.current_page_ancestor>a,
 .main-navigation.main-menu-style-2 .menu>li.current-menu-ancestor>a {
     color: #ffffff;
-    background-color: #298FFC !important;
+    background-color: #00c03f !important;
 }
 
 .invert .contact-block.contact-block--header .contact-block__text a:hover,
 .invert .contact-block.contact-block--header a[href^="tel:"]:hover {
-    color: #298FFC !important;
+    color: #00c03f !important;
 }
 
 .site-footer .share-btns__link:hover,
 .site-footer .social-list a:hover {
-    color: #298FFC !important;
+    color: #00c03f !important;
 }
 
 .invert .social-list a:hover {
-    color: #298FFC !important;
+    color: #00c03f !important;
 }
 
 .invert .contact-block.contact-block--header .contact-block__icon {
@@ -133,7 +130,7 @@ Version: 0.1
 .wpcf7-submit,
 .post-password-form label+input {
     color: #ffffff;
-    background-color: #298FFC !important;
+    background-color: #00c03f !important;
 }
 
 .wpcf7-submit,
@@ -202,7 +199,57 @@ Version: 0.1
     content: "\e903" !important;
     color: white !important;
 }
-
+.pricing-table__action {
+	display: none;
+}
+.entry-content p a:hover {
+	color: #00c03f!important; 
+}
+.popup-distribution-materials {
+	display: flex;
+	justify-content: space-between;
+}
+.item-distribution__1 {
+	width: 55%;
+}
+.btn-distribution__2 {
+	width: 40%;
+}
+.btn-distribution__2 > input {
+	font-size: 11px!important;
+    padding: 11px!important;
+    margin: 0!important;
+    border-radius: 20px!important;
+    border: 2px solid #fff!important;
+}
+#popmake-5483 {
+	background: url(https://xn--36-6kcd0cript.xn--p1ai/wp-content/uploads/2020/08/234567.jpg)!important;
+    background-size: cover!important;
+}
+.item-distribution__1 .email-817 > input {
+	background: none!important;
+    color: #fff!important;
+}
+.pum-theme-5478 .pum-title, .pum-theme-enterprise-blue .pum-title {
+	font-weight: bold!important;
+	color: #fff!important;
+	text-align: center;
+}
+.pum-theme-5478 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close {
+	  background-color: rgba( 0, 0, 0, 0 )!important;
+}
+.pum-theme-5478 .pum-content, .pum-theme-enterprise-blue .pum-content {
+	    color: #fff!important;
+}
+.btn-personal-data {
+	text-align: center!important;
+}
+.btn-personal-data > a {
+	color: #fff!important;
+}
+.btn-personal-data > a:hover {
+	color: #00c03f!important;
+}
 @media (max-width: 384px) {
     .tm-testi-slider .tm-testi__item-body {
         width: 71%;
@@ -227,17 +274,6 @@ Version: 0.1
     }
 }
 
-@media (min-width: 900px) {
-    .header-components__grid-elements .contact-block__inner .contact-block__item {         
-        -webkit-flex-basis: inherit;
-        -ms-flex-preferred-size: inherit;
-        flex-basis: inherit;       
-        -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
-        flex-shrink: 0;
-    }
-}
-
 @media (max-width: 1198px) {
     .tm-testi-slider .tm-testi__item-body {
         padding-top: 20px !important;
@@ -254,3 +290,19 @@ Version: 0.1
         padding-left: 0;
     }
 }
+
+/* адаптив под мобильную версию 11.08.2020 */
+@media (max-width: 900px) {
+	.site-header.style-4 .site-branding {
+		margin: 10px auto;
+	}
+	.main-navigation.main-menu-style-2 .menu > li {
+		margin: 0 auto;
+	}
+	.header-components__grid-elements .contact-block__inner > * {
+		padding-left: 2px;
+        padding-right: 2px;
+	}
+
+}
+
