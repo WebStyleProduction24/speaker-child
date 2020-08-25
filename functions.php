@@ -4,6 +4,8 @@ function theme_enqueue_styles(){
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('mytheme-style') );
 }
 
+
+
 /**
  * Show contact block.
  *
@@ -62,5 +64,11 @@ function speaker_contact_block_wsp24( $target = 'header' ) {
 
 	echo $html;
 }
+
+
+
+
+
+
 
 ?>

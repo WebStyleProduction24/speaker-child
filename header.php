@@ -33,6 +33,20 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/66078253" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->	
+	<!-- Marquiz script start -->
+<script src="//script.marquiz.ru/v1.js" type="application/javascript"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  Marquiz.init({ 
+    host: '//quiz.marquiz.ru', 
+    id: '5e54bbf64661bd004426f3b3', 
+    autoOpen: false, 
+    autoOpenFreq: 'once', 
+    openOnExit: false 
+  });
+});
+</script>
+<!-- Marquiz script end -->
 </head>
 
 <body <?php body_class(); ?>>
@@ -52,6 +66,7 @@
 	<div id="content" <?php speaker_content_class(); ?>>
 
 		
-<!-- <?php if ( !is_home() || !is_front_page() ) { ?>
+<!-- <?php if ( is_home() || is_front_page() ) { ?>
 
 <?php } ?> -->
+		

@@ -250,6 +250,28 @@ Author URI: https://wsp24.ru
 .btn-personal-data > a:hover {
 	color: #00c03f!important;
 }
+.footer-privacy-policy > a {
+	color: #b2b2b2;
+}
+.footer-privacy-policy > a:hover {
+	color: #00c03f;
+}
+.number_contacts-color > a:hover  {
+	color: #00c03f;
+}
+.link-privacy-policy-btn > {
+	color: #2B2B2B;
+} 
+.link-privacy-policy-btn >  {
+	color: #00c03f;
+} 
+.header-components__grid-elements .contact-block__inner > * {
+	padding-left: 3px;
+    padding-right: 4px;
+}
+.hentry ol >li:before, .hentry ul:not([class]) > li:before, .comment-content ol >li:before, .comment-content ul:not([class]) > li:before {
+    color: #00c03f;
+}
 @media (max-width: 384px) {
     .tm-testi-slider .tm-testi__item-body {
         width: 71%;
@@ -272,8 +294,37 @@ Author URI: https://wsp24.ru
     .elementor-278 .elementor-element.elementor-element-b8j0je0 {
         margin-top: 20px;
     }
+	.contact-block__inner {
+	display: flex;
+    flex-direction: column;
+	}
+	.contact-block__item .contact-block__item--icon {
+		font-size: 12px;
+	}
+	.site-header.style-4 .site-branding {
+		margin: 10px auto;
+	}
+	.main-navigation.main-menu-style-2 .menu > li {
+		margin: 0 auto;
+	}
+	.header-components__grid-elements .contact-block__inner > * {
+		padding-left: 2px;
+        padding-right: 2px;
+	}
+	.elementor-column.elementor-col-50, .elementor-column[data-col="50"] {
+    width: 100%;
+	}
+	.elementor-column-gap-default > .elementor-row > .elementor-column:not(.elementor-column-custom-padding) > .elementor-element-populated {
+    margin-bottom: 30px;
+	}
+	.header-components__contact-button .contact-block .contact-block__inner {
+	display: flex;   
+	 flex-direction: column;	
+	}
+	.elementor-column-gap-default > .elementor-row > .elementor-column:not(.elementor-column-custom-padding) > .elementor-element-populated {
+    margin-bottom: 39px!important;
 }
-
+}
 @media (max-width: 1198px) {
     .tm-testi-slider .tm-testi__item-body {
         padding-top: 20px !important;
@@ -291,18 +342,4 @@ Author URI: https://wsp24.ru
     }
 }
 
-/* адаптив под мобильную версию 11.08.2020 */
-@media (max-width: 900px) {
-	.site-header.style-4 .site-branding {
-		margin: 10px auto;
-	}
-	.main-navigation.main-menu-style-2 .menu > li {
-		margin: 0 auto;
-	}
-	.header-components__grid-elements .contact-block__inner > * {
-		padding-left: 2px;
-        padding-right: 2px;
-	}
-
-}
 
