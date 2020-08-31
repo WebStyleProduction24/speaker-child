@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 <!-- Marquiz script end -->
+<meta name="yandex-verification" content="ece01d4fd009e913" />
 </head>
 
 <body <?php body_class(); ?>>

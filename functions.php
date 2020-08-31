@@ -1,7 +1,11 @@
 <?php
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
-function theme_enqueue_styles(){
+add_action( 'wp_enqueue_scripts', 'styles' );
+function styles(){
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('mytheme-style') );
+}
+add_action( 'wp_footer', 'scripts' );
+function scripts(){
+	wp_enqueue_script( 'js-scripts', get_stylesheet_directory_uri() . '/main.js' );
 }
 
 
@@ -58,7 +62,7 @@ function speaker_contact_block_wsp24( $target = 'header' ) {
 		$html .= sprintf( '<div class="contact-block__item %1$s">%2$s<div class="contact-block__value-wrap">%3$s%4$s</div></div>', $item_mod_class, $icon, $label, $text );
 	}
 
-	$email_column_wsp24 = '<div class="contact-block__item contact-block__item--icon"><i class="contact-block__icon nc-icon-mini ui-1_email-83"></i><div class="contact-block__value-wrap"><span class="contact-block__text"><a href="mailto:info@банкрот36.рф">info@банкрот36.рф</a></span></div>';
+	$email_column_wsp24 = '<div class="contact-block__item contact-block__item--icon"><i class="contact-block__icon nc-icon-mini ui-1_email-83"></i><div class="contact-block__value-wrap"><span class="contact-block__text"><a href="mailto:info@банкрот36.рф" id="mail-header">info@банкрот36.рф</a></span></div>';
 
 	$html .= $email_column_wsp24 . '</div></div>';
 
